@@ -10,16 +10,19 @@
  */
 int main(void)
 {
-	char ch;
+	int ch;
+	char al;
 
-	ch = 'a';
+	ch = 0;
+	al = 'a';
 	do {
-		if ((ch != 'q') && (ch != 'e'))
-		{
-			putchar (ch);
-		}
+		putchar (ch + '0');
 		ch++;
-	} while (ch <= 'z');
+	} while (ch <= 9);
+	do {
+		putchar (al);
+		al++;
+	} while (al <= 'f');
 	putchar ('\n');
 	return (0);
 }
