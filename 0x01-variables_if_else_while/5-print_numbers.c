@@ -9,12 +9,12 @@
  * Return: Always return 0 (Success)
  */
 int main(void)
-{char ch = 'a';
-while (ch <= 'z')
+{int ch = '0';
+while (ch <= '9')
 {
 putchar(ch);
-ch++;
+ch++
 }
 putchar('\n');
 return (0);
-
+}
