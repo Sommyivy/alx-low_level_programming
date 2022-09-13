@@ -1,6 +1,6 @@
 #include "main.h"
 /**
-*_islower - Entry point
+*_isalpha - a function to check for alphabetst
 *
 *lowercase character. Another cases, shows 0
 *
@@ -8,7 +8,7 @@
 *
 *Return: 1 for lowercase character. 0 for the rest.
 */
-int _islower(int c)
+int _isalpha(int c)
 {
 if ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'))
 {
