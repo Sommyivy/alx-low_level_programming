@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "main.h"
 /**
 * print_alphabet - function to print alphabett
 *
@@ -6,10 +6,10 @@
 */
 void print_alphabet(void)
 {
-int ch;
-for (ch = 'a'; ch <= 'z'; ch++)
+int c
+for (c= 'a'; c<= 'z'; c++)
 {
-_putchar(ch);
+_putchar(c);
 }
 _putchar('\n');
 }
