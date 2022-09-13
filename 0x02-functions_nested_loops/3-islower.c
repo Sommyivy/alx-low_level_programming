@@ -1,13 +1,16 @@
 #include "main.h"
 /**
-* _islower n- function to print alphabett
+* _islower - Entry point
 *
-* Return: Always 0 (Success)
+* lowercase character. Another cases, shows 0
+*
+* @c: The character in ASCII code
+*
+* Return: 1 for lowercase character. 0 for the rest.
 */
 int _islower(int c)
 {
-int a;
-if (a = 'a' && a <= 'z')
+if (c >= 'a' && c <= 'z')
 {
 return (1);
 }
