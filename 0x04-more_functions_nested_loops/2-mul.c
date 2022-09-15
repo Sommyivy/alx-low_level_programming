@@ -3,15 +3,15 @@
 /**
 *mul - Entry point
 *
-*lowercase character. Another cases, shows 0
+*@a: the character in ASCII code
 *
-*@c: The character in ASCII code
+*@b: The character in ASCII code
 *
-*Return: 1 for lowercase character. 0 for the rest.
+*Return: @c for lowercase character. 0 for the rest.
 */
 int mul(int a, int b)
 {
-	int c;
-	c = a * b;
-	return (c);
- }
+int c;
+c = a * b;
+return (c);
+}
