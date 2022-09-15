@@ -1,7 +1,7 @@
 #include <main.h>
 #include <ctype.h>
 /**
-*_islower - Entry point
+*_isupper - Entry point
 *
 *lowercase character. Another cases, shows 0
 *
