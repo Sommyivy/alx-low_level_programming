@@ -6,7 +6,6 @@
 *Return: @c for lowercase character. 0 for the rest.
 */
 void print_numbers(void)
-
 {
 int a;
 for (a = '0'; a <= '9'; a++)
