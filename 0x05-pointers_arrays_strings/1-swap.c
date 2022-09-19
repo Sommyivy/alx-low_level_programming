@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 /**
- *swap_int: a function to swap figurea
+:x
  *
  *@a : a variable
  *
@@ -10,7 +10,7 @@
 void swap_int(int *a, int *b)
 {
 int c;
-c = *a;
+c = *a; 
 *a = *b;
 *b = c;
 }
