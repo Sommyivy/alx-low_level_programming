@@ -27,5 +27,5 @@ for (i = 0; i < size; i++)
 {
 ht->array[i] = NULL;
 }
-return(ht);
+return (ht);
 }
